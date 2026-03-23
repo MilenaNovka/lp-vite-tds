@@ -9,7 +9,7 @@ import cardImg1 from '/card1.jpg'
 import cardImg2 from '/card2.jpg'
 import cardImg3 from '/card3.jpg'
 import pic from '/pic.png'
-import vvv from '/video.mp4'
+// import vvv from './assets/video.mp4'
 import lg from '/logo.png'
 
 function App() {
@@ -64,13 +64,13 @@ function App() {
         </section>
 
         <section id="s3" className={s.s3}>
-            <div className={s.fullScreen}>
+            {/* <div className={s.fullScreen}>
                 <video src={vvv} autoPlay muted loop></video>
                 <div className={s.contentVideo}>
                     <img src={lg} alt=""/>
                     <a href="https://bethesda.net/pt/game/starfield" target="_blank">Play Now</a> 
                 </div>
-            </div>
+            </div> */}
         </section>
 
         <section id="s4" className={s.s4}>
